@@ -1,0 +1,50 @@
+
+/* herença e especifidade*/
+
+/*
+#pagina p {
+
+	color: skyblue !important;
+}
+*/
+
+
+/*
+#pagina p{
+
+	color: burlywood;
+}
+
+*/
+
+
+
+/*se um seletor for mais especifico que o outro a regra mais especifica será aplicada (terá a precedência sobre regras mais gerais)*/
+
+
+
+*{
+
+	color: red;
+}
+
+/* herença em terceiro*/
+
+h2{
+
+	color: blueviolet;
+}
+
+/*vai ser aplicado em segundo*/
+
+h2.verde{
+
+	color: greenyellow;
+}
+
+
+/* vai ser aplicado primeiro*/
+h2#amarelo{
+
+	color: greenyellow;
+}
